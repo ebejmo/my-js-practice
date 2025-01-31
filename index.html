@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Practice</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script type="module" src="/js/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>javaScript Practice</h1>
+      <p>Fun and useful JavaScript exercises</p>
+    </header>
+
+    <main>
+      <section class="exercise fizzbuzz-section">
+        <h2>FizzBuzz Challenge</h2>
+        <p>Enter a number and see FizzBuzz in action</p>
+        <div class="input-container">
+          <input type="number" id="inputNumber" placeholder="Enter a number (e.g 15)" min="1" />
+          <button class="fizz-btn">Run FizzBuzz</button>
+        </div>
+        <div class="result"></div>
+      </section>
+
+      <section class="exercise palindrome-section">
+        <h2>Palindrome Checker</h2>
+        <p>Type a word to see if it is a palindrome</p>
+        <div class="input-container">
+          <input type="text" id="textInput" placeholder="Enter a word" />
+          <button id="palBtn">Check Palindrome</button>
+        </div>
+        <div class="palResult"></div>
+      </section>
+    </main>
+
+    <section class="exercise todo-section">
+      <h2>To-Do List</h2>
+      <div class="input-container">
+        <input type="text" name="" id="taskInput" placeholder="Add a new task" />
+        <button id="taskBtn">Add Task</button>
+      </div>
+      <div class="taskResult">
+        <ul id="taskList"></ul>
+      </div>
+      <button id="clearTasksBtn" class="clear-btn">Clear All Tasks</button>
+    </section>
+
+    <footer>
+      <p>Made with ❤️ for JavaScript fun! 🚀</p>
+    </footer>
+  </body>
+</html>
