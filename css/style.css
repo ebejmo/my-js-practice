@@ -116,6 +116,16 @@ button:hover {
   width: 100%;
 }
 
+.randomResult {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.randomColorText {
+  padding: 2rem;
+}
+
 footer {
   background: #2f4f4f;
   color: white;
